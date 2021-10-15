@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+
+footer.contact-info {
+  height: 400px;
+  position: fixed;
+  bottom: 0;
+  background: #0F0F0F;
+  width: 100%;
+  z-index: -1;
+}
+
+
+
+@media only screen and (max-width: 768px)
+  footer.contact-info> h3 {
+    width: 63%;
+}
+
+footer.contact-info>h3 {
+    text-align: center;
+    padding-top: 45px;
+    text-transform: uppercase;
+    color: #5121ff;
+    font-weight: bold;
+    border-bottom: 1px solid #6421ff;
+    width: 20%;
+    margin: 15px auto;
+}
+h3.title {
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #5121ff;
+    text-transform: uppercase;
+}
+
+.tech-col h3 {
+  text-align: center;
+  border-bottom: 1px solid #5121ff;
+}
+
+div.contact div a h4 {
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+footer.contact-info div.contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+footer.contact-info > h3 {
+  text-align: center;
+  padding-top: 45px;
+  text-transform: uppercase;
+  color: #ffad21;
+  font-weight: bold;
+  border-bottom: 1px solid #ffad21;
+  width: 20%;
+  margin:15px auto
+}
+
+div.contact div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #0A0A0C;
+  width: 15%;
+  margin: 2em;
+  height: 140px;
+  color:#ffad21
+}
+
+div.contact div a {
+  text-decoration: none;
+  line-height: 55px;
+}
+
+div.contact div a i {
+  padding: 15px;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  background: #0A0A0C;
+  color: #5121ff;
+  transition: all 0.3s ease-in-out;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+nav.black {
+  padding:0px 10px
+}
+
+div.logoFlex {
+  width: 85%
+}
