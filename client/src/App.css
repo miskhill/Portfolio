@@ -68,9 +68,9 @@ footer.contact-info > h3 {
   text-align: center;
   padding-top: 45px;
   text-transform: uppercase;
-  color: #ffad21;
+  color: #FFFFFF;
   font-weight: bold;
-  border-bottom: 1px solid #ffad21;
+  border-bottom: 1px solid #5121ff;
   width: 20%;
   margin:15px auto
 }
@@ -83,7 +83,7 @@ div.contact div {
   width: 15%;
   margin: 2em;
   height: 140px;
-  color:#ffad21
+  color:#5121ff
 }
 
 div.contact div a {
