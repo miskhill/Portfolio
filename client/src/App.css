@@ -11,6 +11,39 @@ html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
   transform: none;
 }
 
+.icontest {
+  color: red;
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+.tech-col .tech-icons i {
+  padding: 0 10px;
+  }
+
+.devicon-react-original-wordmark.colored, .devicon-react-original.colored, .devicon-react-plain-wordmark.colored, .devicon-react-plain.colored {
+  color: #61dafb;
+  }
+
+.devicon.min.css: 9[class*=" devicon-"], [class^=devicon-] {
+  font-family: devicon;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+
 footer.contact-info {
   height: 400px;
   position: fixed;
@@ -28,6 +61,8 @@ footer.contact-info {
 }
 
 footer.contact-info>h3 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-top: 45px;
     text-transform: uppercase;
@@ -64,16 +99,6 @@ footer.contact-info div.contact {
   text-align: center;
 }
 
-footer.contact-info > h3 {
-  text-align: center;
-  padding-top: 45px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  font-weight: bold;
-  border-bottom: 1px solid #5121ff;
-  width: 20%;
-  margin:15px auto
-}
 
 div.contact div {
   display: flex;
@@ -116,3 +141,10 @@ nav.black {
 div.logoFlex {
   width: 85%
 }
+
+div.top-arrow i {
+  display: flex;
+  justify-content: center;
+  color: #5121ff;
+  text-decoration: none;
+  }

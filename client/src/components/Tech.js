@@ -1,4 +1,5 @@
 import React from 'react'
+//import IconDjango from 'react-devicon/django/line'
 
 const Tech = () => {
 
@@ -20,7 +21,7 @@ const Tech = () => {
             <i className="devicon-nodejs-plain-wordmark colored"></i>
             <i className="devicon-express-original-wordmark"></i>
             <i className="devicon-bootstrap-plain-wordmark colored"></i>
-            <i className="devicon-babel-plain colored"></i>
+            <i className="IconDjango" width={100} height={100}></i>
             <i className="devicon-webpack-plain-wordmark colored"></i>
             <i className="devicon-mongodb-plain-wordmark colored"></i>
             <i className="devicon-mysql-plain-wordmark colored"></i>
