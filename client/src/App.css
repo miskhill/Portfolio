@@ -6,22 +6,64 @@
 }
 
 html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
-  opacity: 1;
-  -webkit-transform: none;
-  transform: none;
+opacity: 1;
+-webkit-transform: none;
+transform: none;
 }
+
+.navbar .main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-decoration: none;
+  }
+
+.navbar .main-nav :hover {
+  
+  text-decoration: underline;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+#header {
+height: 20vh;
+background: linear-gradient(120deg, #000, 65%, #5121ff 55%);
+position: relative;
+}
+
+.navbar .main-nav>li .nav-links {
+  padding: 1rem;
+  }
+  style.scss:321.navbar .nav-links, .navbar .logo {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 1rem;
+  transition: .5s ease;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  }
+
+.navbar-toggle {
+  position: absolute;
+  top: 22px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255,255,255,0.8);
+  font-size: 24px;
+  }
+
+  h2 {
+    color: azure;
+  }
 
 .icontest {
   color: red;
   display: flex;
   justify-content: center;
   background-color: azure;
-}
-
-.project {
-  display: flex;
-  justify-content: center;
-  background-color: red;
 }
 
 .tech-col .tech-icons i {
@@ -73,16 +115,18 @@ footer.contact-info>h3 {
     margin: 15px auto;
 }
 h3.title {
-    letter-spacing: 0.1em;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    color: #5121ff;
-    text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: #5121ff;
+  text-transform: uppercase;
 }
 
 .tech-col h3 {
   text-align: center;
   border-bottom: 1px solid #5121ff;
+  width: 20%;
+  margin: 15px auto;
 }
 
 div.contact div a h4 {
