@@ -4,11 +4,13 @@ import IconAmazonwebservices from 'react-devicon/amazonwebservices/original'
     <>
     <div className="project">
     <div className="contact-info">
-    <h3 className="title">Main Page</h3>
-    <h2 className="icontest">Icon test</h2>
-    <div className="iconfun">
-    <IconAmazonwebservices size="2em" />
-    </div>
+    <h3 className="title">About Gary</h3>
+    <p>
+      Cavalier King Charles Spaniels
+    </p>
+    <p>
+      Kickboxing Coach
+    </p>
     </div>
     </div>
     </>

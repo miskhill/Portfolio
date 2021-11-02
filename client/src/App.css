@@ -5,12 +5,6 @@
   scroll-behavior: smooth;
 }
 
-html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
-opacity: 1;
--webkit-transform: none;
-transform: none;
-}
-
 .navbar .main-nav {
   display: flex;
   flex-direction: row;
@@ -30,22 +24,6 @@ background: linear-gradient(120deg, #000, 65%, #5121ff 55%);
 position: relative;
 }
 
-.navbar .main-nav>li .nav-links {
-  padding: 1rem;
-  }
-  style.scss:321.navbar .nav-links, .navbar .logo {
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-  font-size: 1.2rem;
-  padding: 1rem;
-  transition: .5s ease;
-  text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  }
-
 .navbar-toggle {
   position: absolute;
   top: 22px;
@@ -59,30 +37,8 @@ position: relative;
     color: azure;
   }
 
-.icontest {
-  color: red;
-  display: flex;
-  justify-content: center;
-  background-color: azure;
-}
-
 .tech-col .tech-icons i {
   padding: 0 10px;
-  }
-
-.devicon-react-original-wordmark.colored, .devicon-react-original.colored, .devicon-react-plain-wordmark.colored, .devicon-react-plain.colored {
-  color: #61dafb;
-  }
-
-.devicon.min.css: 9[class*=" devicon-"], [class^=devicon-] {
-  font-family: devicon;
-  font-style: normal;
-  font-weight: 400;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   }
 
 
@@ -95,12 +51,6 @@ footer.contact-info {
   z-index: -1;
 }
 
-
-
-@media only screen and (max-width: 768px)
-  footer.contact-info> h3 {
-    width: 63%;
-}
 
 footer.contact-info>h3 {
     display: flex;
