@@ -192,3 +192,9 @@ div.top-arrow i {
   color: #5121ff;
   text-decoration: none;
   }
+
+.icon {
+  height: 100px;
+  padding: 10px;
+  margin-left: 50px;
+}
