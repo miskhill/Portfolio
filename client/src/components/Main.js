@@ -1,4 +1,4 @@
-import IconAmazonwebservices from 'react-devicon/amazonwebservices/original'
+import React from 'react'
 
   const Main = () => (
     <>

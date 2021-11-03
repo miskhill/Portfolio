@@ -1,17 +1,27 @@
 import React from 'react'
+import Card from './card'
+import Carousel from 'react-elastic-carousel'
+
 
 const Project = () => {
 
+  const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 500, itemsToShow: 2 },
+    { width: 768, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 }
+  ]
+
   return (
-<>
-<div className="tech-col">
-<div className="Project">
-<h3 className="title">Projects</h3>
-</div>
-
-</div>
-
-</>
+    
+    <>
+    <Carousel breakPoints={breakPoints}>
+      <Card number="1" />
+      <Card number="2" />
+      <Card number="3" />
+      <Card number="4" />
+    </Carousel>
+    </>
   )
 }
 
