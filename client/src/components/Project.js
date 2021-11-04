@@ -16,10 +16,10 @@ const Project = () => {
     
     <>
     <Carousel breakPoints={breakPoints}>
-      <Card number="1" />
-      <Card number="2" />
-      <Card number="3" />
-      <Card number="4" />
+      <Card number="Connect 4" />
+      <Card number="Movie Generator" />
+      <Card number="GCW Esports" />
+      <Card number="Hospitality Hub" />
     </Carousel>
     </>
   )
