@@ -10,7 +10,7 @@ const Header = () =>  {
         <span className="navbar-toggle" id="js-navbar-toggle">
             <i className="fas fa-bars"></i>
             <li>
-              <Link to="/Main">Main</Link>
+              <Link to="/Main">About Me</Link>
             </li>
             <li>
               <Link to="/Tech">Tech Stack</Link>

@@ -7,9 +7,7 @@ const Footer = () => {
     <footer className="contact-info">
       <h3 className="title"> Contact Me </h3>
       <div
-        className="contact"
-        data-aos="fade-up"
-        data-aos-duration="7000">
+        className="contact">
 
           <div>
             <a href="mailto: gary.smith80@hotmail.com">

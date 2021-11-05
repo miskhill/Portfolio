@@ -2,15 +2,21 @@ import React from 'react'
 
   const Main = () => (
     <>
-    <div className="project">
+    <div className="tech-col">
     <div className="contact-info">
     <h3 className="title">About Gary</h3>
-    <p>
-      Cavalier King Charles Spaniels
+    <div className="card-wrap">
+      <div className="card">
+      <p>
+      Cavaliers
     </p>
-    <p>
+      </div>
+      <div className="card">
+      <p>
       Kickboxing Coach
     </p>
+      </div>
+    </div>
     </div>
     </div>
     </>
