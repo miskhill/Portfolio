@@ -46,10 +46,39 @@ position: relative;
     color: azure;
   }
 
+/* Tech page css */
+.techdiv {
+  height: 40vh;
+  overflow: auto;
+}
+
 .tech-col .tech-icons i {
   padding: 0 10px;
   }
 
+.icon {
+  height: 90px;
+  padding: 10px;
+  margin-left: 50px;
+  }
+  
+.tech-icons {
+  overflow:scroll;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  display: inline;
+  }
+
+.techparagraph {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: #5121ff;
+  padding: 10px;
+}
+
+/* Card CSS */
 .card-wrap {
   margin-right: 20px;
   overflow: scroll;
@@ -68,7 +97,7 @@ position: relative;
 
 }
 
-
+/* Footer CSS */
 footer.contact-info {
   height: 400px;
   position: fixed;
@@ -169,19 +198,3 @@ div.top-arrow i {
   color: #5121ff;
   text-decoration: none;
   }
-
-.icon {
-  height: 90px;
-  padding: 10px;
-  /* margin-left: 50px; */
-}
-
-.tech-icons {
-  overflow:scroll;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
- display: inline;
-  
-  
-}

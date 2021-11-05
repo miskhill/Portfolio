@@ -6,7 +6,7 @@ const Tech = () => {
   return (
 
 
-      <section>
+      <section className="techdiv">
         <div className="tech-col">
           <div className="project">
             <h3 className="title"> Tech </h3>
@@ -42,6 +42,12 @@ const Tech = () => {
             </div>
           </div>
         </div>
+        <div className="techparagraph">
+        <p className="techtext">
+          I have had experience using all of the above technologies! Please see my project link for examples as to where.
+        </p>
+        </div>
+        
         </section>
 
 
