@@ -12,20 +12,23 @@
   text-decoration: none;
   }
 
-.navbar .main-nav :hover {
-  
-  text-decoration: underline;
-  transition: width 2s, height 2s, transform 2s;
-}
-
 #header {
-height: 20vh;
+height: 10vh;
 background: linear-gradient(120deg, #000, 65%, #5121ff 55%);
 position: relative;
 }
 
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+Link {
+  background-color: white;
+}
 .navbar-toggle {
   position: absolute;
+  color: white;
   top: 22px;
   right: 20px;
   cursor: pointer;
@@ -170,7 +173,9 @@ div.top-arrow i {
 .tech-icons {
   overflow:scroll;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+ display: inline;
+  
   
 }

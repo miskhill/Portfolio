@@ -5,14 +5,13 @@ const Tech = () => {
 
   return (
 
-   
 
       <section>
         <div className="tech-col">
           <div className="project">
             <h3 className="title"> Tech </h3>
           </div>
-          <div className="tech-icons">
+          <div className="tech-icons-cover">
             <div className="tech-icons">
             <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css"/>
             <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" alt="Django"/>
