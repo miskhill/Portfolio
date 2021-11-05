@@ -13,7 +13,7 @@
   }
 
 #header {
-height: 10vh;
+height: 13vh;
 background: linear-gradient(120deg, #000, 65%, #5121ff 55%);
 position: relative;
 }
@@ -23,8 +23,14 @@ position: relative;
   text-decoration: none;
 }
 
-Link {
-  background-color: white;
+.textLink {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: 1.0px;
+  font-size: 11px;
 }
 .navbar-toggle {
   position: absolute;
