@@ -104,6 +104,12 @@ position: relative;
   margin-left: 65px;
 }
 
+.button-div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -60px;
+}
+
 .btn-btn-primary{
   margin-left:5px;
 }

@@ -8,8 +8,10 @@ const Card = ({ title, img , text}) => {
       <div className="card-body">
       <h2 className="card-title">{title}</h2>
       <div className="card-text">{text}</div>
-      <button className="btn btn-primary">Go to Project</button>
-      <button className="btn btn-primary">Go to ReadMe</button>
+      <div className="button-div">
+      <button className="btn btn-primary">Visit Project</button>
+      <button className="btn btn-primary">Visit ReadMe</button>
+      </div>
       </div>
     </div>
     </>
