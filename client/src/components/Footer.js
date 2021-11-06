@@ -28,11 +28,6 @@ const Footer = () => {
           </div>
 
       </div>
-      <div className="top-arrow">
-        <a href="#top">
-          <i className="fas fa-chevron-up"></i>
-        </a>
-      </div>
     </footer>
   </section>
   )

@@ -46,6 +46,12 @@ position: relative;
     color: azure;
   }
 
+/* About page */
+.about-div {
+  height: 40vh;
+  overflow: auto;
+}
+
 /* Tech page css */
 .techdiv {
   height: 40vh;
@@ -124,7 +130,7 @@ position: relative;
 } */
 /* Footer CSS */
 footer.contact-info {
-  height: 400px;
+  /* height: 400px; */
   position: fixed;
   bottom: 0;
   background: #0F0F0F;
@@ -217,9 +223,9 @@ div.logoFlex {
   width: 85%
 }
 
-div.top-arrow i {
+/* div.top-arrow i {
   display: flex;
   justify-content: center;
   color: #5121ff;
   text-decoration: none;
-  }
+  } */
