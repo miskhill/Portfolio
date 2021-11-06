@@ -59,14 +59,37 @@ position: relative;
   
 }
 
+.about-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .abouth2 {
   display: flex;
   justify-content: center;
+}
+.gary-photo {
+  height: 180px;
+  display: flex;
+  align-items: center;
+
 }
 
 .photo {
   height: 180px;
   padding-top: 10px;
+}
+
+.photo:hover {
+  position:relative;
+  top:-25px;
+  left:-35px;
+  width:300px;
+  height:auto;
+  display:block;
+  z-index:999;
+  transition: width 2s linear 3s;
 }
 
 /* Tech page css */
