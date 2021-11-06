@@ -52,6 +52,23 @@ position: relative;
   overflow: auto;
 }
 
+.photo-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.abouth2 {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  height: 180px;
+  padding-top: 10px;
+}
+
 /* Tech page css */
 .techdiv {
   height: 50vh;
