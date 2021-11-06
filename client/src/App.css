@@ -48,13 +48,13 @@ position: relative;
 
 /* About page */
 .about-div {
-  height: 40vh;
+  height: 60vh;
   overflow: auto;
 }
 
 /* Tech page css */
 .techdiv {
-  height: 40vh;
+  height: 50vh;
   overflow: auto;
 }
 
@@ -128,6 +128,8 @@ position: relative;
 /* .cardtext {
   font-size: 10px;
 } */
+
+
 /* Footer CSS */
 footer.contact-info {
   /* height: 400px; */
@@ -143,7 +145,7 @@ footer.contact-info>h3 {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 45px;
+    padding-top: 10px;
     text-transform: uppercase;
     color: #5121ff;
     font-weight: bold;
@@ -180,7 +182,6 @@ footer.contact-info div.contact {
   text-align: center;
 }
 
-
 div.contact div {
   display: flex;
   flex-direction: column;
@@ -188,7 +189,7 @@ div.contact div {
   background: #0A0A0C;
   width: 15%;
   margin: 2em;
-  height: 140px;
+  height: 80px;
   color:#5121ff
 }
 
