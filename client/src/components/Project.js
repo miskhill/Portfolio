@@ -15,6 +15,14 @@ const Project = () => {
   return (
     
     <>
+    <div className="tech-col">
+    <div className="contact-info">
+    <h3 className="title">Projects</h3>
+    </div>
+    </div>
+    
+    
+
     <Carousel breakPoints={breakPoints}>
       <Card title="Connect 4" href="https://github.com/miskhill/Project1" img="https://i.imgur.com/zAxT5UI.png" text="Classic game built with JavaScript, CSS & HTML" id="connect4"/>
       <Card title="Movie Generator" img="https://i.imgur.com/HjjLtGN.jpg" text="Built with React, Express, JavaScript & Bootstrap"/>
