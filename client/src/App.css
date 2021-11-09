@@ -94,8 +94,12 @@ position: relative;
 
 /* Tech page css */
 .techdiv {
-  height: 50vh;
+  height: 60vh;
   overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .tech-col .tech-icons i {
@@ -113,7 +117,7 @@ position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  display: inline;
+  /* display: inline; */
   }
 
 .techparagraph {
@@ -270,3 +274,42 @@ div.logoFlex {
   color: #5121ff;
   text-decoration: none;
   } */
+
+@media (max-width: 380px) {
+ 
+/* .tech-col {
+    width: 0%;
+  } */
+#project-title {
+  margin-left: 100px;
+}
+
+.tech-col h3 {
+  width: 50%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 0;
+    margin-right: 0;
+  }
+.card-img-top {
+    margin-left: 0;
+}
+.card-body {
+  margin-left: 0;
+}
+
+  .card-body {
+    text-align: center;
+  }
+
+  .button-div {
+    margin-left: 0;
+  }
+
+}
