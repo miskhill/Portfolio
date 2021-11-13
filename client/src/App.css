@@ -141,6 +141,44 @@ position: relative;
   scroll-padding: 50px 0 0 50px;
 }
 
+/* .hvrbox .hvrbox-layer_slideright {
+	-moz-transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
+	-ms-transform: translateX(-100%); 
+	transform: translateX(-100%); 
+}  */
+/* .hvrbox:hover .hvrbox-layer_slideright,
+.hvrbox.active .hvrbox-layer_slideright {
+	-moz-transform: translateX(0);
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0); 
+	transform: translateX(0);
+} */
+.hvrbox{
+  
+  color: white;
+}
+
+.hvrbox-text {
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+}
+
+.hvrbox:hover {
+  color:#5121ff
+}
+/* .hvrbox-text2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+} */
+
+.hvrbox-text:hover {
+  display: normal;
+} 
+
+
 .tech-col .tech-icons i {
   padding: 0 10px;
   }
@@ -156,6 +194,7 @@ position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /* margin-bottom: 10%; */
   }
 
 .techparagraph {
@@ -347,6 +386,15 @@ div.logoFlex {
   margin-bottom: 2%;
   font-size: 90%;
   flex-direction: row;
+}
+
+.hvrbox{
+  padding-bottom: 12%;
+  margin-left: -18%;
+}
+
+.hvrbox-text {
+  margin-left: 13%;
 }
 
 .💳  {

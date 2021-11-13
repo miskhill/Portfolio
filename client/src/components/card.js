@@ -16,8 +16,8 @@ const Card = ({ title, img , text, href, href2 }) => {
       <h2 className="card-title">{title}</h2>
       <div className="card-text">{text}</div>
       <div className="button-div">
-      <button className="btn btn-primary"><a href={href} target="_blank" rel="nonreferrer">Visit Project</a></button>
-      <button className="btn btn-primary"><a href={href2} target="_blank" rel="nonreferrer">Visit ReadMe</a></button>
+      <button className="btn btn-primary"><a href={href} target="_blank" rel="noreferrer">Visit Project</a></button>
+      <button className="btn btn-primary"><a href={href2} target="_blank" rel="noreferrer">Visit ReadMe</a></button>
       </div>
       </div>
     </div>

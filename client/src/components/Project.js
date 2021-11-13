@@ -29,6 +29,10 @@ const Project = () => {
       <Card title="GCW Esports" href="https://github.com/CosmasC128/Project-3" href2="https://github.com/CosmasC128/Project-3#readme" img="https://i.imgur.com/oAyjrg2.jpg" text="Built with React, Express, MongoDB & Mongoose"/>
       <Card title="Hospitality Hub" href="https://github.com/miskhill/Project4" href2="https://github.com/miskhill/Project4#readme" img="https://i.imgur.com/l3crfLq.png" text="Built with Python, Django, Postgres, React & Express"/>
     </Carousel>
+
+    <div>
+    
+    </div>
     </>
   )
 }
