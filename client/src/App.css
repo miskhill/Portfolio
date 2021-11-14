@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  text-decoration: none;
 }
 
 .navbar .main-nav {
@@ -44,7 +45,7 @@ position: relative;
 
   h2 {
     color: azure;
-    /* margin-left: 6%; */
+    margin-left: 6%; 
   }
 
 /* About page */
@@ -244,11 +245,13 @@ position: relative;
 .button-div {
   display: flex;
   justify-content: space-evenly;
+  text-decoration: none;
   margin-left: -60px;
 }
 
 .btn-btn-primary{
   margin-left:5px;
+  
 }
 /* .cardtitle {
   font-size: 30px;
@@ -362,7 +365,48 @@ div.logoFlex {
   text-decoration: none;
   } */
 
-@media (max-width: 380px) {
+  @media (max-width: 1024px) {
+    .about-div {
+      height: 69vh;
+    }
+    #img6 {
+      display: none;
+    }
+    .card {
+      height: 320px
+    }
+    .💳 {
+      margin-left: 16%;
+      width: 65%;
+    }
+    h2 {
+      padding-top: 5%;
+    }
+    .card-body {
+      margin-left: 9%;
+    }
+    .button-div {
+      margin-left: -6%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .about-div {
+      height: 61vh;
+    }
+  
+    .💳  {
+      margin-left: auto;
+      width: auto;
+    }
+  
+    #img7 {
+      display: none;
+    }
+  
+  }
+
+  @media (max-width: 380px) {
 
 .about-div {
   height: 55vh;
@@ -467,18 +511,16 @@ div.logoFlex {
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 360px) {
+
+  #header {
+    height: 17vh;
+  }
   .about-div {
-    height: 61vh;
+    height: 44vh;
   }
-
-  .💳  {
-    margin-left: auto;
-    width: auto;
-  }
-
-  #img7 {
-    display: none;
+  .techdiv {
+    height: 45vh;
   }
 
 }
