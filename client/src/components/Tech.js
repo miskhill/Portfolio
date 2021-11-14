@@ -100,6 +100,7 @@ const Tech = () => {
             </div>
             <div className="hvrbox">
             <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="VSCode"/>
+            <div className="hvrbox-text">VSCode</div>
             </div>
             <div className="hvrbox">
             <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" alt="Yarn"/>
