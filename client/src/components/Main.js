@@ -9,10 +9,10 @@ import React from 'react'
     <div className="about-header">
     <img src="https://i.imgur.com/iLcgqBD.jpg" alt="Gary" className="gary-photo"></img>
     </div>
-    <h4 className="abouth2">Be fascinated not frustrated</h4>
+    <h4 className="abouth2">"Be fascinated not frustrated."</h4>
     <div className="💬">
     <p className="abouth2">What an amazing mindset to have!! Whether learning a new Martial Art, trying a new game for the first time or picking up a new Tech stack I am always eager to learn as much as I can to demystify any issues I might face along my journey.</p>
-    <p className="abouth2">This desire to learn is what excited me about my journey into coding from my first evening on HTML (Thanks Codecademy) all the way through to joining General Assembly and embarking on their Software Engineering Immersive Bootcamp.</p>
+    <p className="abouth2">This desire to learn is what excited me about my journey into coding from my first evening on HTML (Thanks Codecademy!) all the way through to joining General Assembly and embarking on their Software Engineering Immersive Bootcamp.</p>
     </div>
     <div className="card-wrap">
       <div className="💳">
