@@ -37,9 +37,9 @@ const Project = () => {
         <div>
         <h3 className="h3desc">Connect 4</h3>
         </div>
-          <ul className="list">Classic desktop game</ul>
-          <ul className="list">7 day timeframe</ul>
-          <ul className="list">JavaScript</ul>
+          <li className="list">Classic desktop game</li>
+          <li className="list">7 day timeframe</li>
+          <li className="list">JavaScript, CSS, HTML</li>
       </div>
       
       <div className="projdescription" id="movie">
@@ -47,10 +47,10 @@ const Project = () => {
         <h3 className="h3desc">Random Movie Generator</h3>
       </div>
 
-        <ul className="list">Save time deciding what movie you want to watch by randomising your choice.</ul>
-        <ul className="list">React | JavaScript | HTML | CSS</ul>
-        <ul className="list">2 person team- 48 hour timeframe.</ul>
-        <ul className="list">I was responsible for implementing the API and accessing all relevant information.</ul>
+        <li className="list">Save time deciding what movie you want to watch by randomising your choice.</li>
+        <li className="list">React | JavaScript | HTML | CSS</li>
+        <li className="list">2 person team- 48 hour timeframe.</li>
+        <li className="list">I was responsible for implementing the API and accessing all relevant information.</li>
       </div>
       <div>
         
@@ -59,19 +59,19 @@ const Project = () => {
         <div>
         <h3 className="h3desc">GCW Esports</h3>
         </div>
-        <ul className="list">GCW Fire Esports - Quick access to popular Esport games rated by your peers. </ul>
-        <ul className="list">League of Legends based and themed.</ul>
-        <ul className="list">3 person team with a 10 day timeframe.</ul>
-        <ul className="list">Focus on team dynamics with Git | GitHub version control, merge conflicts.</ul>
-        <ul className="list">I implemented Back-End set up, functionality for likes and views as well as styling with bootstrap and CSS.</ul>
+        <li className="list">GCW Fire Esports - Quick access to popliar Esport games rated by your peers. </li>
+        <li className="list">League of Legends based and themed.</li>
+        <li className="list">3 person team with a 10 day timeframe.</li>
+        <li className="list">Focus on team dynamics with Git | GitHub version control, merge conflicts.</li>
+        <li className="list">I implemented Back-End set up, functionality for likes and views as well as styling with bootstrap and CSS.</li>
       </div>
       <div className="projdescription" id="hhub">
         <div>
         <h3 className="h3desc">Hospitality Hub</h3>
         </div>
-        <ul className="list">An application to allow Businesses and Employees to register, login, post jobs, apply to jobs and rate each other.</ul>
-        <ul className="list">3 person team with a 10 day timeframe for completion.</ul>
-        <ul className="list">Responsible for implementing the Back-End together with the team and accessing/displaying the profile pages for business and employee with functionality for ratings.</ul>
+        <li className="list">An application to allow Businesses and Employees to register, login, post jobs, apply to jobs and rate each other.</li>
+        <li className="list">3 person team with a 10 day timeframe for completion.</li>
+        <li className="list">Responsible for implementing the Back-End together with the team and accessing/displaying the profile pages for business and employee with functionality for ratings.</li>
       </div>
     </div>
     </div>

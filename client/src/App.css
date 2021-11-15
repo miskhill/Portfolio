@@ -72,6 +72,7 @@ position: relative;
   justify-content: center;
   margin-bottom: 2%;
   font-size: 120%;
+  margin-left: 0;
 }
 .gary-photo {
   height: 180px;
@@ -112,24 +113,6 @@ position: relative;
 }
 
 
-/* #frame {
-  border: 3px solid rgb(129, 118, 118);
-  background: rgb(41, 39, 39);
-  margin: auto;
-  padding: 15px 10px;
-} */
-
-/* .photo:hover {
-  position:relative;
-  top:-25px;
-  left:-35px;
-  width:300px;
-  height:auto;
-  display:block;
-  z-index:999;
-  transition: width 2s linear 3s;
-} */
-
 /* Tech page css */
 .techdiv {
   height: 55vh;
@@ -142,19 +125,7 @@ position: relative;
   scroll-padding: 50px 0 0 50px;
 }
 
-/* .hvrbox .hvrbox-layer_slideright {
-	-moz-transform: translateX(-100%);
-	-webkit-transform: translateX(-100%);
-	-ms-transform: translateX(-100%); 
-	transform: translateX(-100%); 
-}  */
-/* .hvrbox:hover .hvrbox-layer_slideright,
-.hvrbox.active .hvrbox-layer_slideright {
-	-moz-transform: translateX(0);
-	-webkit-transform: translateX(0);
-	-ms-transform: translateX(0); 
-	transform: translateX(0);
-} */
+
 .hvrbox{
   
   color: white;
@@ -169,11 +140,7 @@ position: relative;
 .hvrbox:hover {
   color:#5121ff
 }
-/* .hvrbox-text2 {
-  display: flex;
-  justify-content: center;
-  margin-left: 35%;
-} */
+
 
 .hvrbox-text:hover {
   display: normal;
@@ -295,12 +262,12 @@ justify-content: center;
   margin-right: 1%;
 }
 
-#GCW {
-  margin-right: 1%;
+#gcw {
+  margin-left: 1%;
 }
 
 #hhub {
-  margin-right: 1%;
+  margin-left: 1%;
 }
 
 .h3desc {
@@ -312,7 +279,7 @@ justify-content: center;
 
 .list {
   list-style-type: circle;
-  text-align: center;
+  margin-left: 1%;
 }
 
 /* Footer CSS */
