@@ -432,14 +432,32 @@ div.logoFlex {
   
   }
 
-  @media (max-width: 380px) {
+@media (max-width: 414px) {
+#header {
+  height: 15vh;
+}
+.about-div {
+  height: 54vh;
+}
+.techdiv {
+  height: 50vh;
+  padding-top: 50%;
+}
+}
+
+
+@media (max-width: 375px) {
+
+#header {
+  height: 16vh;
+}
 
 h2{
   padding-top: 1%;
 }
 
 .about-div {
-  height: 55vh;
+  height: 50vh;
   overflow: auto;
 }
 
@@ -521,6 +539,7 @@ h2{
     font-size: 14px;
     margin-top: 0;
     margin-right: 0;
+    height: 230px;
   }
 .card-img-top {
     margin-left: 0;
@@ -538,13 +557,17 @@ h2{
   }
 
   .techdiv {
-    height: 55vh;
-    padding-top: 8%;
+    height: 53vh;
+    padding-top: 0%;
   }
 
   .tech-icons {
     display: block;
     height: 10vh;
+  }
+
+  .techparagraph {
+    display: none;
   }
 
 }
