@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <Header />
     <Switch>
-      <Route exact path = "/">
+      <Route exact path = "/Main">
     <Main />
     </Route>
     <Route exact path = "/Tech">
