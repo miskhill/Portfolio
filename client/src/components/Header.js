@@ -9,7 +9,7 @@ const Header = () =>  {
       <nav className="navbar black">
         <span className="navbar-toggle" id="js-navbar-toggle">
             <li className="link">
-              <Link to="/portfolio/Main" className="textLink">About Me</Link>
+              <Link to="/" className="textLink">About Me</Link>
             </li>
             <li className="link">
               <Link to="/Tech" className="textLink">Tech Stack</Link>
