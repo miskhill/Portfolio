@@ -426,6 +426,10 @@ div.logoFlex {
 
   @media (max-width: 380px) {
 
+h2{
+  padding-top: 1%;
+}
+
 .about-div {
   height: 55vh;
   overflow: auto;
