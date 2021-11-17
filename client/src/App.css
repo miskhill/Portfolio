@@ -443,6 +443,9 @@ div.logoFlex {
   height: 50vh;
   padding-top: 50%;
 }
+.card {
+  height: 280px;
+}
 }
 
 
