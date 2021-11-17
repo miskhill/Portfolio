@@ -174,7 +174,8 @@ position: relative;
 }
 
 /* Card CSS */
-.card-wrap {
+.tech-div {
+  height: 50vh;
   overflow: auto;
 }
 
@@ -583,8 +584,8 @@ h2{
   .about-div {
     height: 44vh;
   }
-  .techdiv {
-    height: 45vh;
+  .tech-div {
+    height: 43vh;
   }
 
 }

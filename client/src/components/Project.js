@@ -15,6 +15,7 @@ const Project = () => {
   return (
     
     <>
+    <div className="tech-div">
     <div className="tech-col">
     <div className="contact-info">
     <h3 className="title" id="project-title">Projects</h3>
@@ -75,6 +76,8 @@ const Project = () => {
       </div>
     </div>
     </div>
+    </div>
+
     </>
   )
 }
