@@ -452,6 +452,12 @@ div.logoFlex {
 
 @media (max-width: 375px) {
 
+/* .safari13 {
+  .techdiv {
+    height: 45vh;
+  }
+} */
+
 #header {
   height: 16vh;
 }
@@ -584,7 +590,7 @@ h2{
   .about-div {
     height: 44vh;
   }
-  .tech-div {
+  .techdiv {
     height: 43vh;
   }
 
