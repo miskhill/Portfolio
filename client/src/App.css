@@ -175,7 +175,7 @@ position: relative;
 
 /* Card CSS */
 .card-wrap {
-  overflow: scroll;
+  overflow: auto;
 }
 
 .card {
