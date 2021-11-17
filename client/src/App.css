@@ -121,7 +121,7 @@ position: relative;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* padding-top: 8%; */
+  padding-top: 8%; 
   scroll-padding: 50px 0 0 50px;
 }
 
@@ -162,7 +162,7 @@ position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* margin-bottom: 10%; */
+  
   }
 
 .techparagraph {
@@ -593,5 +593,10 @@ h2{
   .techdiv {
     height: 43vh;
   }
+
+}
+
+.techdiv .safari_only {
+    padding-top: 8%;
 
 }
