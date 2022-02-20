@@ -2,9 +2,6 @@ import React from 'react'
 
 const Card = ({ title, img , text, href, href2 }) => {
 
-// function handleClick() {
-//   console.log('clicked')
-// }
 
   return (
     <>
