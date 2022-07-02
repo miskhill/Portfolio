@@ -18,7 +18,7 @@ const Tech = () => {
               <div className="hvrbox-text">CSS</div>
             </div>
             <div className="hvrbox">
-              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" alt="Django"/>
+              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg" alt="Django"/>
               <div className="hvrbox-text">Django</div>
             </div>
             <div className="hvrbox">

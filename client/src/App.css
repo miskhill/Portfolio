@@ -293,7 +293,7 @@ footer.contact-info {
   bottom: 0;
   background: #0F0F0F;
   width: 100%;
-  z-index: -1;
+  z-index: 1;
 }
 
 
