@@ -14,43 +14,43 @@ const Tech = () => {
           <div className="tech-icons-cover">
             <div className="tech-icons">
               <div className="hvrbox">
-                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css"/>
-              <div className="hvrbox-text">CSS</div>
+                <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="css"/>
+              <div className="hvrbox-text">TypeScript</div>
             </div>
             <div className="hvrbox">
-              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg" alt="Django"/>
-              <div className="hvrbox-text">Django</div>
+              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Nodejs" />
+              <div className="hvrbox-text">NodeJS</div>
             </div>
             <div className="hvrbox">
-              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express"/>
-              <div className="hvrbox-text">Express</div>
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+              <div className="hvrbox-text">JavaScript</div>
             </div>
             <div className="hvrbox">
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/>
               <div className="hvrbox-text">React</div>
             </div>
             <div className="hvrbox">
-              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/>
-              <div className="hvrbox-text">Git</div>
+              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="Postgres" />
+              <div className="hvrbox-text">Postgres</div>
             </div>
           </div>
             
             <div className="tech-icons">
               <div className="hvrbox">
-              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github"/>
-              <div className="hvrbox-text">GitHub</div>
+              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next"/>
+              <div className="hvrbox-text">NextJs</div>
               </div>           
             <div className="hvrbox">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" alt="Heroku"/>
-              <div className="hvrbox-text">Heroku</div>
+              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css" />
+              <div className="hvrbox-text">CSS</div>
               </div>          
             <div className="hvrbox">
             <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"/>
               <div className="hvrbox-text">HTML</div>
               </div>           
             <div className="hvrbox">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
-              <div className="hvrbox-text">JavaScript</div>
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" alt="Nest" />
+              <div className="hvrbox-text">Nestjs</div>
               </div>
             <div className="hvrbox">
             <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/>
@@ -64,8 +64,8 @@ const Tech = () => {
               </div>
             
             <div className="hvrbox">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Nodejs"/>
-              <div className="hvrbox-text">NodeJS</div>
+              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adonisjs/adonisjs-original.svg" alt="Django" />
+              <div className="hvrbox-text">Django</div>
               </div>
             
             <div className="hvrbox">
@@ -74,13 +74,13 @@ const Tech = () => {
               </div>
             
             <div className="hvrbox">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="Postgres"/>
-              <div className="hvrbox-text">PostGres</div>
+              <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" />
+              <div className="hvrbox-text">Express</div>
               </div>
             
             <div className="hvrbox">
               <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"/>
-              <div className="hvrbox-text">postgresql</div>
+              <div className="hvrbox-text">Python</div>
               </div>           
             </div>
             
@@ -95,8 +95,8 @@ const Tech = () => {
             <div className="hvrbox-text">Sass</div>
             </div>
             <div className="hvrbox">
-            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" alt="Trello"/>
-            <div className="hvrbox-text">Trello</div>
+            <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github"/>
+            <div className="hvrbox-text">Github</div>
             </div>
             <div className="hvrbox">
             <img className="icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="VSCode"/>
